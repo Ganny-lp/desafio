@@ -1,0 +1,112 @@
+/* Reset de estilos padrão */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da navbar */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.section h1{
+    margin-bottom:1vw;
+}
+.navbar {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo das seções */
+.section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px 0;
+}
+footer p{
+    margin-right: 1vw;
+}
+/* Estilo da seção 1 */
+.section {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo do container flexbox */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo do formulário */
+.form-container {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilo da imagem */
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
