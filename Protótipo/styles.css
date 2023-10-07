@@ -16,6 +16,24 @@ nav {
 .navbar {
     list-style-type: none;
     padding: 10px 0;
+    margin:0;
+    color: black;
+}
+#margin{
+    padding-bottom:10vw;
+}
+button{
+    padding:1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right:1vw;
+    margin-bottom:1vw;
+}
+#button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
 }
 
 .navbar li {
